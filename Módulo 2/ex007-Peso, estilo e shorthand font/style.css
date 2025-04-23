@@ -1,0 +1,17 @@
+body {
+
+    /*fontes abaixo são as mais usadas
+    1 -> font-family: 'work-sans, sans-serif';
+    2 -> font-weight: 100;
+    3 -> font-size: iem;
+    4 -> font-style: normal;
+     shorthand font
+    -font-style -> font-weight -> font-size -> font-family
+    consegue fazer body, h1, h2 ...*/
+    font: normal 100 iem 'work-sans', sans-serif;
+
+    /*font-kerning: none;
+    text-decoration-line: overline;
+    text-decoration: line-through;*/
+}
+

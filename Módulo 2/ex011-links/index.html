@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+
+        /*
+        # = id
+        . = class
+        * = universal
+        : = pseudo-classe
+        :: = pseudo-elemento
+        :hover = quando o mouse passa por cima
+        :active = quando o mouse clica
+        :visited = quando o link já foi visitado
+        :link = quando o link não foi visitado
+        :before = antes do elemento
+        :after = depois do elemento
+        :first-child = primeiro filho do elemento
+        :last-child = último filho do elemento
+        > = children
+        
+        */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: rgb(120, 39, 39);
+            text-decoration: none; /* Remove o sublinhado padrão dos links */
+            font-weight: bold;
+        }
+
+        a:visited { /* Muda o link visitado */
+            color: rgb(0, 0, 255); /* Muda a cor do link visitado */
+        }
+
+        a:hover { /* Muda ao passar o mouse */
+            color: rgb(0, 0, 0); /* Muda a cor do link ao passar o mouse */
+            text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+        }
+
+        a:active{ /* Muda enquanto estiver na ação de clicar */
+            color: rgb(246, 255, 0); /* Muda a cor do link ao clicar */
+        }
+
+        a::after { /* Adiciona conteúdo após o link */
+            content : " (link)"; /* Adiciona texto após o link */
+            text-decoration: none; /* Remove o sublinhado do texto adicionado */
+            font-weight: normal; /* Define o peso da fonte como normal */
+            color: rgb(60, 58, 58); /* Define a cor do texto adicionado como cinza escuro */
+        }
+
+        a::before { /* Adiciona conteúdo antes do link */
+            content: "Acesse: "; /* Adiciona texto antes do link */
+            font-weight: normal; /* Define o peso da fonte como normal */
+            color: rgb(60, 58, 58); /* Define a cor do texto adicionado como cinza escuro */
+        }
+
+        .especial {
+            background-color: rgb(218, 158, 158);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank">Gustavo Guanabara</a></li> <!--target="_blank" faz o link abrir em uma nova aba-->
+        <li><a href="https://youtube.com/cursoemvideo/" class=" especial">Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/">Site do CursoemVídeo</a></li>
+    </ul>
+</body>
+</html>

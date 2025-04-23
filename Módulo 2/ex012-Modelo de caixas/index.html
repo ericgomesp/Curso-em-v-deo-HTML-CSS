@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <style>
+        h1 {
+            background-color: aqua;
+            height: 300px; /*largura*/
+            width: 300px; /*altura*/
+            
+            border-width: 10px;
+            border-style: solid;
+            border-color: #30ae9d;
+            /*simplificando border: 10px solid #30ae9d; */
+ 
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-left: 10px;
+            padding-bottom: 10px;
+            /*simplificando padding: 10px 10px 10px 10px; ou somente 10px se todos forem o mesmo valor */
+
+            margin: 10px;
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-left: 10px;
+            margin-bottom: 10px;
+            /*Simplificando margin: 10px 10px 10px 10px; ou somente 10px se todos forem o mesmo valor */
+            /*margin: auto;  centraliza o elemento na tela se for texto usa-se text-align: center; */
+
+
+            outline: 10px solid #000;
+            outline-offset: 2px;
+            outline-width: 15px;
+            outline-color: green;
+            outline-style: groove;
+            
+        }
+
+        a{
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+        }
+
+        /* Longhand 
+margin-top: 10px;
+margin-right: 20px;
+margin-bottom: 10px;
+margin-left: 20px;
+
+ Shorthand 
+margin: 10px 20px;*/
+
+
+/* Longhand 
+font-style: italic;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.5;
+font-family: 'Arial', sans-serif;
+
+ Shorthand 
+font: italic bold 16px/1.5 'Arial', sans-serif;*/
+
+/* Longhand 
+background-color: #333;
+background-image: url('img.jpg');
+background-repeat: no-repeat;
+background-position: center;
+
+ Shorthand 
+background: #333 url('img.jpg') no-repeat center;*/
+
+
+/* Longhand 
+border-width: 2px;
+border-style: solid;
+border-color: red;
+
+ Shorthand 
+border: 2px solid red;*/
+
+
+/* Longhand 
+transition-property: all;
+transition-duration: 0.3s;
+transition-timing-function: ease;
+transition-delay: 0s;
+
+ Shorthand 
+transition: all 0.3s ease 0s;*/
+
+
+/* Longhand 
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 0%;
+
+ Shorthand 
+flex: 1 1 0%;*/
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos do box-level, mas os <a href="#"> são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+</body>
+</html>
+
+

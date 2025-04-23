@@ -1,0 +1,284 @@
+Emojiopedia para copiar emojis
+
+box level --> sempre inicia um box depois da linha e ocupa as laterais 100% viewport
+(div)
+h1 a h6
+p
+main
+header
+nav
+article
+aside
+footer
+forma
+video
+
+inline level -->  do lado do conteudo ele nao quebra linha como o box level
+(span)
+a
+code 
+small
+strong
+em
+sup e sub
+label
+button
+input
+select
+
+
+<!--target="_blank" faz o link abrir em uma nova aba-->
+Fontes
+
+Arial (sans-serif)
+Verdana (sans-serif)
+Tahoma (sans-serif)
+Trebuchet MS (sans-serif)
+Times New Roman (serif)
+Georgia (serif)
+Garamond (serif)
+Courier New (monospace)
+Brush Script MT (cursive)
+
+Sempre que depois de : tiver mais de 2 palavras colocar ""
+ex: font-family: "helveica, Arial" ;
+monospace
+sans-serif
+serif
+
+quando voce insere o 'a' coloca na frente target=_"blank"> para semnpre que clicar no link abrir outra aba 
+
+sites para identificar fontes
+
+- https://www.whatfontis.com/
+- https://www.fontsquirrel.com/
+- https://www.myfonts.com/
+
+O que faz cada coisa em CSS
+
+align-content --> alinhar conteudo
+align-items --> alinhar itens
+align-self --> alinhar-se
+animation-delay --> atraso de animação
+animation-direction --> animação direção
+animation-duration --> duração da animação
+animation-fill-mode --> modo de preenchimento de animação
+animation-iteration-count --> animação interação contagem
+animation-name --> nome da animação
+animation-play-state --> animação reprodução estado
+animation-timing-function --> função de tempo de animação
+animation --> animação
+background-attachment --> anexo de fundo
+background-clip --> clipe de fundo
+background-color --> cor de fundo
+background-image --> imagem de fundo
+background-origin --> origem de fundo
+background-position --> positção de fundo
+background-repeat --> repetição de fundo
+background-size --> tamanho de fundo
+background --> fundo
+
+border-bottom-color --> cor da borda inferior
+border-bottom-left-radius --> borda inferior esquerda raio
+border-bottom-right-radius --> borda inferior direita raio
+border-bottom-style --> estilo de borda inferior
+border-bottom-width --> largura inferior da borda
+
+border-bottom --> borda inferior
+border-collapse --> colapso da borda
+border-color --> cor da borda
+border-left-color --> cor da borda esquerda
+border-left-style --> estilo da borda esquerda
+border-left-width --> largura da borda esquerda
+border-left --> borda esquerda
+border-radius --> raio da borda
+border-right-color --> cor da borda direita
+border-right-style --> estilo da borda direita
+border-right-width --> largura da borda direita
+border-right --> borda direita
+border-style --> estilo da borda
+border-top-color --> cor superior da borda
+
+border-top-left-radius --> borda superior raio esquerdo
+border-top-right-radius --> borda superior direito raio
+border-top-style --> estilo de borda superior
+border-top-width --> largura superior da borda
+border-top --> borda superior
+
+border-width --> largura da borda
+border --> borda
+bottom --> fundo
+box-shadow --> caixa sombra
+box-sizing --> dimensionamento da caixa
+clear --> claro
+color --> cor
+column-count --> contagem de colunas
+column-gap --> lacuna de colunas
+column-width --> largura de colunas
+content --> URL que aponta para um recurso externo
+cursor --> cursor
+display --> mostrar
+flex-basis --> base flexivel
+flex-direction --> direção flexivel
+flex-flow --> fluxo flexivel
+flex-grow --> crescimento flexivel
+flex-shrink --> flexionar enconlher
+flex-wrap --> envoltorio flexivel
+float --> flutuador
+font-family --> familia de fontes
+font-size --> tamanho da fonte 
+font-style --> estilo das fontes 
+font-variant --> variante de fontes 
+font-weight --> espessura da fontes
+font --> fonte
+grid-area --> area de grade
+grid-auto-columns --> grade auto colunas
+grid-auto-flow --> fluxo automatico de grade
+grid-auto-rows --> grade auto linhas
+
+grid-column-end - --> fim de coluna de grade
+grid-column-gap --> lacuna de coluna de grades
+grid-column-start --> inicio de coluna de grades
+grid-column --> grade de colunas
+
+grid-gap --> lacuna na grade
+
+grid-row-end --> fim de linha de grade
+grid-row-gap --> lacuna linha grade
+grid-row-start --> inicio da linha de grade
+grid-row --> grade linha
+
+grid-template-areas --> areas de modelo de grade
+grid-template-columns --> colunas de modelo de grade
+grid-template-rows --> linhas de modelo de grade
+grid-template --> modelo de grade
+grid --> grade
+
+height --> altura
+justify-content --> ajustar conteudo
+left --> esquerda
+letter-spacing --> espaçamento entre letras
+line-height --> altura da linha
+list-style-image --> imagem de estilo lista
+list-style-position --> posição estilo lista
+list-style-type --> tipo estilo de lista
+list-style --> estilo de lista
+
+margin-bottom --> --> margem inferior
+margin-left --> margem esquerda
+margin-right --> margem direita
+margin-top --> margem superior
+margin --> preenchimento bprda externa
+
+max-height --> altura maxima
+max-width --> largura maxima
+min-height --> altura minima
+min-width --> altura minima
+mix-blend-mode --> modo de mistura mista
+opacity --> opacidade
+order --> ordem
+outline-color --> contorno cor
+outline-style --> estilo de estrutura de topicos
+outline-width --> largura do contorno
+outline --> contorno fora da borda
+overflow-wrap --> estouro envoltorio
+overflow-x --> estouro x
+overflow-y --> estouro y
+overflow --> trasnbordar
+
+padding-bottom --> preenchimento inferior
+padding-left --> preenchimento esquerdo
+padding-right --> preenchimento direito
+padding-top --> preenchimento topo
+padding --> preenchimento da borda interna 
+
+pointer-events --> eventos de ponteiro
+position --> posição
+resize --> redimensionar
+right --> direita
+text-align --> alinhamento de texto
+text-decoration --> decoração de texto
+text-indent --> recuo de texto
+text-overflow --> estouro de texto
+text-shadow --> sombra de texto
+text-transform --> tranformação de texto
+transform-origin --> origem de tranformação
+transform --> transformar
+transition-delay --> atraso de transição
+transition-duration --> duração de transição
+transition-property --> propriedade de transição
+transition-timing-function --> função de tempo de transição
+transition --> transição
+vertical-align --> alinhamento vertical
+white-space --> espaço em branco
+width --> largura
+will-change --> vai mudar
+word-break --> quebra de palavras
+word-spacing --> espçamento entre palavras
+z-index --> indice z
+flex-start --> Alinha os itens no início do container.
+flex-end --> Alinha os itens no final do container.
+center: Alinha os itens no centro do container.
+space-between --> Distribui os itens com o maior espaço possível entre eles.
+space-around --> Distribui os itens com espaço igual ao redor deles.
+space-evenly --> Distribui os itens com espaçamento igual entre eles, incluindo as bordas do container.
+
+
+
+
+---------------------------------------------------------------
+
+HTML
+
+p --> paragrafo
+a --> link
+h1, h2, h3, h4, h5 e h6 --> tipos Titulos
+strong -- > negrito
+img src --> linkar uma imagem interna
+<!--  --> --> comentario em HTML
+ul --> listas nao ordenadas
+ol -- > listas ordenadas
+li --> item de lista
+link --> especifica as relações entre o documento atual e um recurso externo
+footer --> representa um rodapé
+header --> cabeçalho
+main --> define o conteúdo principal dentro do <body>
+nav --> representa uma seção de uma página que aponta para outras páginas ou para outras áreas da página, ou seja, uma seção com links de navegação.
+section -->representa uma seção genérica contida em um documento HTML, geralmente com um título
+blockquote --> Elemento HTML de citação de blockquote
+abbr --> abreviação
+b --> Outro exemplo de seu uso é como marcação da frase principal de cada paragrafo de um artigo.
+i --> representa uma parte do texto que é destacada do restante por algum motivo
+mark --> trecho em destaque
+s --> renderiza um texto tachado ou uma linha cortando o texto.
+audio --> é utilizado para embutir conteúdo de som
+map --> é usado com os elementos <area> para definir um mapa de imagem (a área clicável do link).
+track --> é usado como filho dos elementos de mídia<audio> e <video>
+video --> é utilizado para incorporar conteúdo de vídeo
+source --> é utilizado para especificar múltiplos recursos de mídia de elementos <picture>, <audio> ou <video>
+button --> botão clicavel
+label --> representa uma legenda para um item em uma interface de usuário
+textarea --> representa um controle de edição para uma caixa de texto
+input button --> criar um botão
+input checkbox --> caixas quadradas que são marcadas
+input color --> fornecem um elemento de interface do usuário que permite que o usuário especifique uma cor
+input date --> campos de entrada de criação que permitem que o usuário insira uma data
+input datetime-local --> criam controles de entrada que permitem ao usuário inserir facilmente uma data e uma hora
+input e-mail --> são usados ​​para permitir que o usuário insira e edite um endereço de e-mail
+input file --> permitem que o usuário escolha um ou mais arquivos do armazenamento do dispositivo
+input hidden --> permitem que desenvolvedores web incluam dados que não podem ser vistos ou modificados por usuários quando um formulário é enviado
+input image --> são usados ​​para criar botões de envio gráficos, ou seja, botões de envio que assumem a forma de uma imagem em vez de texto
+input number --> são usados ​​para deixar o usuário digitar um número
+input password --> fornecem uma maneira para o usuário inserir uma senha com segurança.
+input radio --> são geralmente usados ​​em grupos de rádio — coleções de botões de rádio que descrevem um conjunto de opções relacionadas.
+input range --> permitem que o usuário especifique um valor numérico que não deve ser menor que um valor dado, e não maior que outro valor dado
+input reset  -->  ão renderizados como botões, com um clickmanipulador de eventos padrão que redefine todas as entradas no formulário para seus valores iniciais.
+input search --> são campos de texto projetados para o usuário inserir consultas de pesquisa
+input submit --> são renderizados como botões. Quando o clickevento ocorre
+input tel --> são usados ​​para deixar o usuário inserir e editar um número de telefone.
+input text --> criam campos de texto básicos de linha única
+input time --> criam campos de entrada projetados para permitir que o usuário insira facilmente um horário
+input url --> são usados ​​para permitir que o usuário insira e edite uma URL
+input week --> criam campos de entrada que permitem a entrada fácil de um ano mais entre 1 a 52 ou 53
+
+**user agent e sempre o navegador que gera algo automatico**

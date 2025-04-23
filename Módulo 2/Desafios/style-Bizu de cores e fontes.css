@@ -1,0 +1,245 @@
+@font-face {
+    font-family: 'idroid';
+    src: url(idroid.otf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background: #eef2bed7;
+}
+
+p  {
+    text-indent: 15px;
+    line-height: 1em;
+}
+
+header {
+    /*background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));*/
+    background: linear-gradient(to bottom, #3CD781, #1A5C38);
+    font-family: sans-serif;
+    width: 100%;
+    margin: -1%;
+    padding: 2%;
+    text-shadow: 1px 3px 4px rgba(0, 0, 0, 0.541);
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    box-shadow: 0px 0px 10px black;
+}
+
+main img {
+    width: 100%;
+}
+
+main img.pequena {
+    max-width: 350px;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    --fonte-destaque: 'Bebas Neue';
+    text-shadow: 1px 3px 4px rgba(0, 0, 0, 0.541);
+}
+
+h2 {
+    color: #0b753b;
+    font-family: 'idroid', sans-serif;
+    
+}
+
+h3 {
+    background: linear-gradient(to right, #89caa591, white);
+    /*background: #cbf4dd91;*/
+    color: #0b753b;
+    font-family: "idroid";
+}
+
+h5 {
+    background: #48ad76;
+    color: white;
+    padding-bottom: 0px;
+    padding: 20px;
+    margin: 2%;
+    border-radius: 5px 5px 0px 0px;
+    border: 1px solid #48ad76 ;
+    
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0; /* opcional, remove o recuo à esquerda */
+  }
+
+  #duas-colunas {
+    display: flex;
+    gap: 400px;
+    
+  }
+  
+  #duas-colunas ul {
+    list-style-type: none; /* remove os pontos, se quiser */
+    padding-left: 0;
+  }
+#android {
+    color: #14713e;
+}
+
+#google {
+    color: #14713e;
+}
+
+#bugdroid {
+   color: #14713e;
+}
+
+#androidh {
+    color: #14713e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#pheader {
+    color: white;
+    text-align: center;
+}
+
+nav.link a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-family: sans-serif;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+nav.link a:hover {
+    color: rgb(41, 41, 41);
+    background-color: #4c9451;
+    border: 7px solid #4c9451;
+    border-radius: 5px;
+}
+
+#dan {
+    color: #14713e;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+#inkspace {
+    color: #14713e;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+#irina {
+    color: #14713e;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+#headerdiv {
+    background: white;
+    margin: 27px 6%;
+    padding: 2%;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+/*#video {
+    background-color: #0b753b;
+    background: #1A5C38;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    border: 5px solid #1A5C38;
+    text-align: center;
+
+}*/
+
+.video {
+    background-color: #14713e;
+    position: relative;             /* Define a posição como relativa, necessário para posicionar o iframe de forma absoluta dentro */
+    padding-bottom: 53.25%;        /* Mantém a proporção 16:9 (altura = 56.25% da largura) para vídeos responsivos */
+    padding-top: 25px;             /* Espaço superior antes do vídeo começar (pode ser ajustado conforme o layout) */
+    height: 0;                     /* Define a altura como 0, usada junto com o padding-bottom para criar a proporção */
+    overflow: hidden;              /* Esconde qualquer conteúdo que ultrapasse a área do container */
+    display: flex;                 /* Usa Flexbox para alinhar o conteúdo (útil caso adicione algo dentro além do iframe) */
+    justify-content: center;      /* Centraliza o conteúdo no eixo horizontal */
+    align-items: center;          /* Centraliza o conteúdo no eixo vertical */
+}
+
+.video iframe {
+    position: absolute;           /* Posiciona o iframe de forma absoluta dentro do .video (que é relativo) */
+    top: 5%;                       /* Alinha o topo do iframe com o topo do container */
+    left: 5%;                      /* Alinha a esquerda do iframe com a esquerda do container */
+    width: 90%;                  /* Faz o iframe ocupar 100% da largura do container */
+    height: 90%;                 /* Faz o iframe ocupar 100% da altura do container */
+    border: 0;                    /* Remove a borda do iframe */
+}
+
+
+#final {
+   background-color: #d0f9e2;
+   padding: 2%;
+   margin: 2%;
+   margin-top: -24px;
+   border: 2%;
+   border-radius: 0px 0px 5px 5px;
+}
+
+abbr {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #1A5C38;
+    color: white;
+    text-align: center;
+    padding: 1%;
+    margin: -2%;
+    
+}
+
+#rodape {
+    
+    margin: 2%;
+    padding: 0%;
+
+}
+
+/*:root {
+    --cor0: #ebe5c5;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-idroid: 'idroid', cursive;
+
+ 
+
+}
+
+Tamanho correto para um site e de 1200 px
+
+* --> Seletor Global 
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+#7ae7ab
+#3CD781
+#1A5C38/*
